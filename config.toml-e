@@ -1,20 +1,16 @@
 baseURL = "/"
-languageCode = "en-us"
-title = "Kube for Hugo"
+languageCode = "pt-BR"
+title = "Cloud Native Blog"
 theme = "kube"
-description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+description = "Este é um blog para falar de assuntos relacionados sobre aplicações Cloud Native"
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "newpixcom" # add your company name
-  github = "" # add your github profile name
-  twitter = "" # add your twitter profile
-  email = "myemail@myaddress.xxx"
+  author = "cpanato"
+  github = "cpanato"
+  twitter = "comedordexis"
+  email = "ctadeu@gmail.com"
 
-[[menu.main]]
-    name = "Docs"
-    weight = -100
-    url = "/docs/"
 [[menu.main]]
     name = "Blog"
     weight = -100
