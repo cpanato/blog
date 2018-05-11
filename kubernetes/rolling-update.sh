@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-export BLOG_TAG="1.3"
+export BLOG_TAG="1.4"
 
 function docker_tag_exists() {
     curl --silent -f -lSL https://index.docker.io/v1/repositories/$1/tags/$2 > /dev/null
