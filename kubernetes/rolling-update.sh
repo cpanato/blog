@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -ex
 
 export BLOG_TAG="1.3"
 
