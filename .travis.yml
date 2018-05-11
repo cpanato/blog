@@ -7,7 +7,7 @@ os:
 
 before_script:
 - docker login -u "${DOCKER_USER}" -p "${DOCKER_PASSWD}"
-- ./kubernetes/instal.sh
+- . kubernetes/install.sh
 
 script:
-- ./kubernetes/instal.sh
+- . kubernetes/instal.sh
