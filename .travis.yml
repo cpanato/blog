@@ -1,0 +1,13 @@
+sudo: required
+
+services:
+  - docker
+os:
+- linux
+
+before_script:
+- docker login -u "${DOCKER_USER}" -p "${DOCKER_PASSWD}"
+- ./kubernetes/instal.sh
+
+script:
+- ./kubernetes/instal.sh
