@@ -8,8 +8,8 @@ os:
 
 before_script:
 - docker login -u "${DOCKER_USER}" -p "${DOCKER_PASSWD}"
-- ls
-- ./kubernetes/install.sh
+- ls kubernetes
+- kubernetes/install.sh
 
 script:
-- . kubernetes/instal.sh
+- kubernetes/rolling-update.sh
