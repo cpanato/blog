@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export BLOG_TAG="1.2"
+export BLOG_TAG="1.3"
 
 docker pull ${DOCKER_USER}/blog:BLOG_TAG
 if [ $? -eq 0 ]
