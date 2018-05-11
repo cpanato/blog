@@ -6,7 +6,7 @@ function docker_tag_exists() {
     curl --silent -f -lSL https://index.docker.io/v1/repositories/$1/tags/$2 > /dev/null
 }
 
-if docker_tag_exists ${DOCKER_USER}/blog BLOG_TAG; then
+if docker_tag_exists ${DOCKER_USER}/blog ${BLOG_TAG}; then
   echo "Image already exist. Aborting build and deploy"
   echo "Please bump the version to create a new image"
   exit 1
