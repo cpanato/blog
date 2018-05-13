@@ -10,6 +10,8 @@ Paginate = 4
   github = "cpanato"
   twitter = "comedordexis"
   email = "ctadeu@gmail.com"
+  googleAnalytics = "UA-119150077-1"
+
 
 [[menu.main]]
     name = "Blog"
